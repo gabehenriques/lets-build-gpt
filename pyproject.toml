@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lets-build-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Gabe Henriques <dev.gabrielhenriques@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lets_build_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+ipython = "^8.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
