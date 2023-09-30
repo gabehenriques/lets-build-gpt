@@ -8,6 +8,7 @@ packages = [{include = "lets_build_gpt"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+torch = "^2.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
